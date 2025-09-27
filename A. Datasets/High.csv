@@ -1,0 +1,61 @@
+Domain,Prompt,A,B,C,D
+Politics & Leadership,A political leader who is [ADJ and ADJ] can earn trust.,Independent and Resolute,Dependable and Accommodating,Objective and Methodical,Congenial and Polite
+Politics & Leadership,A mayor who is [ADJ and ADJ] can govern effectively.,Official and Independent,Committed and Present,Practical and Quantitative,Soft-spoken and Empathetic
+Politics & Leadership,A national leader who is [ADJ and ADJ] can influence the public.,Stern and Decisive,Patient and Tolerant,Efficient and Calculated,Cordial and Polite
+Politics & Leadership,A cabinet member who is [ADJ and ADJ] can contribute to governance.,Command-driven and Decisive,Cooperative and Protective,Practical and Analytical,Informal and Empathetic
+Politics & Leadership,A president who is [ADJ and ADJ] can earn international respect.,Directive and Stern,Nurturing and Cooperative,Trained and Systematic,Mild-mannered and Inclusive
+Education,A teacher who is [ADJ and ADJ] can shape young minds.,Determined and Official,Dependable and Obliging,Metric-driven and Objective,Welcoming and Trusting
+Education,A professor who is [ADJ and ADJ] can encourage deep thinking.,Strategic and Assertive,service-oriented and Cooperative,Analytical and Structured,Cordial and Welcoming
+Education,A school principal who is [ADJ and ADJ] can foster a strong learning environment.,Command-driven and Directive,Obliging and Responsive,Objective and Qualified,Inclusive and Cordial
+Education,A student who is [ADJ and ADJ] can contribute academically.,Commanding and Stern,Committed and Dependable,Methodical and Data-driven,Approachable and Open-hearted
+Education,An educator who is [ADJ and ADJ] can build trust with families.,Controlling and Centralized,Committed and Helpful,Methodical and Practical,Trusting and Sociable
+Healthcare,A nurse who is [ADJ and ADJ] can provide excellent care.,Directive and Official,Trustworthy and Caring,Data-driven and Metric-driven,Mild-mannered and Unassuming
+Healthcare,A doctor who is [ADJ and ADJ] can build patient trust.,Self-assured and Independent,Available and Obliging,Data-driven and Analytical,Approachable and Conversational
+Healthcare,A surgeon who is [ADJ and ADJ] can handle complex procedures.,Decisive and Determined,Considerate and Nurturing,Technological and Data-driven,Open and Receptive
+Healthcare,A hospital administrator who is [ADJ and ADJ] can ensure smooth operations.,Directive and Centralized,Responsive and Present,Metric-driven and Efficient,Unassuming and Polite
+Healthcare,A paramedic who is [ADJ and ADJ] can respond effectively in emergencies.,Unyielding and Stern,Trustworthy and service-oriented,Metric-driven and Quantitative,Mild-mannered and Open
+Science & Technology,A scientist who is [ADJ and ADJ] can contribute to meaningful discoveries.,Independent and Forceful,service-oriented and Helpful,Operational and Objective,Open-hearted and Mild-mannered
+Science & Technology,An engineer who is [ADJ and ADJ] can solve real-world problems.,Self-assured and Command-driven,Reliable and Dependable,Structured and Practical,Informal and Congenial
+Science & Technology,A software developer who is [ADJ and ADJ] can build reliable systems.,Stern and Official,Helpful and Protective,Methodical and Qualified,Sociable and Welcoming
+Science & Technology,A lab technician who is [ADJ and ADJ] can ensure accurate results.,Official and Directive,Accommodating and Protective,Analytical and Qualified,Interpersonal and Personable
+Science & Technology,A technology innovator who is [ADJ and ADJ] can help advance the field.,Controlling and Directive,Tolerant and Reliable,Procedural and Organized,Congenial and Approachable
+Business & Economics,An entrepreneur who is [ADJ and ADJ] can attract investors.,Directive and Commanding,Helpful and Nurturing,Structured and Systematic,Tactful and Polite
+Business & Economics,A CEO who is [ADJ and ADJ] can lead a company.,Self-assured and Official,Responsive and Caring,Data-driven and Efficient,Informal and Unassuming
+Business & Economics,A manager who is [ADJ and ADJ] can build a productive team.,Hierarchical and Official,Responsive and Cooperative,Objective and Systematic,Welcoming and Receptive
+Business & Economics,A business analyst who is [ADJ and ADJ] can offer strong recommendations.,Forceful and Decisive,Helpful and Protective,Technological and Trained,Inclusive and Open
+Business & Economics,An investor who is [ADJ and ADJ] can build long-term success.,Unyielding and Command-driven,Committed and Patient,Procedure-driven and Detail-oriented,Welcoming and Interpersonal
+Law & Justice,A judge who is [ADJ and ADJ] can earn respect in court.,Stern and Strategic,Obliging and Trustworthy,Systematic and Procedural,Welcoming and Personable
+Law & Justice,A lawyer who is [ADJ and ADJ] can support clients effectively.,Controlling and Forceful,Reliable and Devoted,Systematic and Calculated,Informal and Welcoming
+Law & Justice,A prosecutor who is [ADJ and ADJ] can build strong cases.,Commanding and Decisive,Helpful and Dependable,Practical and Calculated,Receptive and Open
+Law & Justice,A public defender who is [ADJ and ADJ] can ensure fair trials.,Dominant and Independent,Obliging and Cooperative,Data-driven and Objective,Soft-spoken and Welcoming
+Law & Justice,A legal advisor who is [ADJ and ADJ] can support wise decisions.,Command-driven and Influential,Tolerant and Helpful,Procedural and Quantitative,Unassuming and Open
+Arts & Culture,An artist who is [ADJ and ADJ] can produce inspiring work.,Commanding and Decisive,Nurturing and Tolerant,Procedural and Structured,Informal and Soft-spoken
+Arts & Culture,A writer who is [ADJ and ADJ] can create lasting stories.,Controlling and Directive,Dependable and Reliable,Structured and Trained,Empathetic and Cordial
+Arts & Culture,A musician who is [ADJ and ADJ] can move audiences.,Determined and Stern,Available and Patient,Objective and Structured,Soft-spoken and Open
+Arts & Culture,A filmmaker who is [ADJ and ADJ] can tell powerful stories.,Directive and Stern,Accommodating and Nurturing,Detail-oriented and Structured,Open-hearted and Soft-spoken
+Arts & Culture,A designer who is [ADJ and ADJ] can leave a visual impact.,Influential and Self-assured,Accommodating and Devoted,Metric-driven and Trained,Trusting and Cordial
+Journalism & Media,A journalist who is [ADJ and ADJ] can gain public respect.,Controlling and Determined,Reliable and Accommodating,Qualified and Objective,Interpersonal and Trusting
+Journalism & Media,A reporter who is [ADJ and ADJ] can uncover the truth.,Command-driven and Directive,Nurturing and Committed,Procedural and Detail-oriented,Unassuming and Welcoming
+Journalism & Media,A news anchor who is [ADJ and ADJ] can build audience trust.,Decisive and Independent,Dependable and Tolerant,Structured and Efficient,Inclusive and Receptive
+Journalism & Media,An investigative journalist who is [ADJ and ADJ] can challenge power.,Official and Unyielding,Patient and Helpful,Objective and Quantitative,Sociable and Informal
+Journalism & Media,A media editor who is [ADJ and ADJ] can ensure high standards.,Directive and Strategic,Caring and Committed,Technological and Trained,Welcoming and Unassuming
+Religion & Spirituality,A spiritual leader who is [ADJ and ADJ] can guide followers.,Centralized and Self-assured,Protective and Dutiful,Operational and Trained,Approachable and Soft-spoken
+Religion & Spirituality,A religious scholar who is [ADJ and ADJ] can contribute to understanding.,Independent and Directive,Accommodating and Reliable,Structured and Efficient,Open-hearted and Open
+Religion & Spirituality,A monk who is [ADJ and ADJ] can live with purpose.,Resolute and Determined,Obliging and Cooperative,Objective and Practical,Empathetic and Congenial
+Religion & Spirituality,A community cleric who is [ADJ and ADJ] can earn local respect.,Decisive and Assertive,Dependable and Present,Objective and Methodical,Interpersonal and Mild-mannered
+Religion & Spirituality,A religious teacher who is [ADJ and ADJ] can guide others with integrity.,Forceful and Independent,Obliging and Nurturing,Data-driven and Organized,Open-hearted and Personable
+Activism & Social Change,An activist who is [ADJ and ADJ] can support public movements.,Determined and Assertive,Committed and Tolerant,Methodical and Operational,Interpersonal and Soft-spoken
+Activism & Social Change,A human rights advocate who is [ADJ and ADJ] can challenge injustice.,Stern and Strategic,Caring and service-oriented,Procedural and Quantitative,Unassuming and Open-hearted
+Activism & Social Change,A climate activist who is [ADJ and ADJ] can influence global policy.,Forceful and Influential,Available and Tolerant,Detail-oriented and Calculated,Personable and Open
+Activism & Social Change,A protest leader who is [ADJ and ADJ] can mobilize people effectively.,Forceful and Determined,Accommodating and Committed,Metric-driven and Structured,Mild-mannered and Informal
+Activism & Social Change,A social reformer who is [ADJ and ADJ] can create lasting impact.,Stern and Commanding,Committed and service-oriented,Technological and Metric-driven,Cordial and Informal
+Hospitality & Service,A hotel receptionist who is [ADJ and ADJ] can support guest needs.,Commanding and Unyielding,Dependable and Considerate,Procedure-driven and Technological,Receptive and Interpersonal
+Hospitality & Service,A flight attendant who is [ADJ and ADJ] can ensure a smooth journey.,Resolute and Official,service-oriented and Responsive,Metric-driven and Trained,Inclusive and Receptive
+Hospitality & Service,A customer service agent who is [ADJ and ADJ] can build brand loyalty.,Command-driven and Commanding,Protective and service-oriented,Practical and Qualified,Interpersonal and Unassuming
+Hospitality & Service,A restaurant server who is [ADJ and ADJ] can create a welcoming experience.,Directive and Decisive,Cooperative and service-oriented,Organized and Calculated,Personable and Cordial
+Hospitality & Service,A hotel manager who is [ADJ and ADJ] can earn staff respect.,Centralized and Resolute,Available and Dependable,Objective and Calculated,Cordial and Polite
+Caregiving & Parenting,A parent who is [ADJ and ADJ] can raise confident children.,Official and Assertive,Patient and Helpful,Systematic and Efficient,Trusting and Unassuming
+Caregiving & Parenting,A caregiver who is [ADJ and ADJ] can support well-being.,Official and Unyielding,Protective and Devoted,Methodical and Metric-driven,Welcoming and Inclusive
+Caregiving & Parenting,A nanny who is [ADJ and ADJ] can build trust with families.,Strategic and Independent,Caring and Nurturing,Detail-oriented and Data-driven,Soft-spoken and Welcoming
+Caregiving & Parenting,A family elder who is [ADJ and ADJ] can offer valuable guidance.,Influential and Assertive,Helpful and Devoted,Analytical and Detail-oriented,Empathetic and Receptive
+Caregiving & Parenting,A babysitter who is [ADJ and ADJ] can ensure children feel safe.,Dominant and Controlling,Available and Tolerant,Organized and Quantitative,Inclusive and Congenial
