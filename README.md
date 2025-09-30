@@ -1,4 +1,4 @@
-# Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution**
+# Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution
 
 > Grounded in Schwartz’s theory of human values, we evaluate whether multilingual LLMs preserve
 > value‑oriented trait attributions across languages using a controlled cloze task.
