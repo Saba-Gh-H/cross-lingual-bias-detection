@@ -31,9 +31,7 @@ Cross-Lingual Bias Detection/
 └─ README.md                   # This landing page
 ```
 
-Each subfolder can include its own `README.md` with details (recommended).
-
----
+Each subfolder includes its own `README.md` with details.
 
 ## 🚀 Quickstart
 ```bash
@@ -59,8 +57,9 @@ python "D. Analysis/analyze_gpt4o.py"
 - Prompts use a placeholder `[ ]` and `temperature=0` for deterministic decoding.
 - Scripts auto‑resume if interrupted and save per‑row progress.
 - Consider Git LFS if any CSVs are very large.
-
 ---
 
 ## 📬 Contact
-Add your name/email here. Paper link will be added upon publication.
+sghanbarihaez@fbk.eu
+ghanbari.haez.saba@gmail.com
+Paper link will be added upon publication.
