@@ -99,8 +99,8 @@ ENVIRONMENT
 - GPU is optional for HF models but recommended; scripts auto‑detect CUDA.
 
 SECRETS & ENDPOINTS
-- OpenAI: keep your API key in secret.py (never commit it).
+- OpenAI: keep your API key in secret.py.
 - Llama/Qwen: store your base URL and any tokens in environment variables or a local config.
 
-CONTACT & LICENSE
-- Replace this line with your contact and dataset/model usage license details.
+CONTACT
+ghanbari.haez.saba@gmail.com
