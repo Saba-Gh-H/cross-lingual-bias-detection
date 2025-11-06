@@ -113,5 +113,5 @@ NOTES
 - For XLM-R, inputs are JSON at the model-inference stage, but are already merged into CSV at this step.
 - If file names differ from the examples, adjust the script paths and model_prefix strings accordingly.
 
-CONTACT & LICENSE
-Replace with your contact and license information if these analysis outputs will be shared.
+CONTACT
+ghanbari.haez.saba@gmail.com
