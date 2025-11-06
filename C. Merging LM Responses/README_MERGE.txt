@@ -53,5 +53,5 @@ REPRO STEP (conceptual; see model‑specific scripts for details)
   Read Low_gpt4o_new.csv / Mid_gpt4o_new.csv / High_gpt4o_new.csv → verify equal length →
   assemble columns Domain_*, Prompt_*, A_*/B_*/C_*/D_* and choices → write Merged_GPT4o_Resp.csv.
 
-CONTACT & LICENSE
-Replace with your contact and the license under which the merged files may be shared.
+CONTACT
+ghanbari.haez.saba@gmail.com
