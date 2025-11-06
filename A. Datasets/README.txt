@@ -55,7 +55,7 @@ QUALITY CHECKS (optional but recommended)
 
 LICENSE & CITATION
 If you use these data, please cite the accompanying paper/report for this study.
-License: [insert license, e.g., CC BY-4.0]  (update this line if different)
+
 
 CONTACT
-For questions or issues about the dataset format or contents, contact: [your name / email]
+For questions or issues about the dataset format or contents, contact: [Saba Ghanbari Haez / ghanbari.haez.saba@gmail.com]
