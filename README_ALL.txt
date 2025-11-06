@@ -36,5 +36,5 @@ HOW TO USE
 - Run the analysis scripts in **Agreement / Disagreement** to compute agreement, disagreement,
   entropy, and cross‑model/domain summaries.
 
-CONTACT & LICENSE
-Replace with your contact details and the license for data and scripts.
+CONTACT 
+ghanbari.haez.saba@gmail.com
