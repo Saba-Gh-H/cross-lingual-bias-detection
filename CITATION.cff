@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  Cite this software when using or adapting the repository. Saba Ghanbari Haez
+  is the sole author of the original repository code. Cite the accompanying
+  manuscript separately when relying on it; see docs/PAPER_CITATION.md.
+type: software
+title: cross-lingual-bias-detection
+authors:
+  - family-names: Ghanbari Haez
+    given-names: Saba
+    website: https://github.com/Saba-Gh-H
+repository-code: https://github.com/Saba-Gh-H/cross-lingual-bias-detection
+url: https://github.com/Saba-Gh-H/cross-lingual-bias-detection
+license-url: https://github.com/Saba-Gh-H/cross-lingual-bias-detection/blob/HEAD/LICENSE
+abstract: >-
+  Research notebooks for multilingual cloze-based trait attribution in English,
+  Italian, and Persian. Includes datasets, six model configurations, response
+  merging, cross-language agreement analysis, and answer-order comparisons.
+keywords:
+  - cross-lingual evaluation
+  - representational fairness
+  - trait attribution
+  - multilingual language models
+  - research software
+# Deliberately no preferred-citation: GitHub should cite the software itself.
+# Add a version, release date, or DOI only when a corresponding release exists.

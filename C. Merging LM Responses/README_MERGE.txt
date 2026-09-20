@@ -1,57 +1,41 @@
-Merged LLM Responses – Multilingual Comparison (Folder README)
-Last updated: 2025-05-05
+MERGING MULTILINGUAL RESPONSES
 
-PURPOSE
-This folder stores the merged, language-aligned outputs for each model. Each merged file combines
-English (High.csv), Italian (Mid.csv), and Farsi (Low.csv) responses into a single CSV so we can
-compare model choices across the three languages item-by-item.
+This folder contains eight Jupyter notebooks. Generated merged CSVs are not
+checked in. Each notebook combines outputs for English (High), Italian (Mid),
+and Persian (Low) by row position. Preserve and verify scenario alignment.
 
-WHAT GOT MERGED (inputs come from the previous 'LLM test' step)
-Base (non‑shuffled) runs:
-  • GPT‑4o → High_gpt4o_new.csv, Mid_gpt4o_new.csv, Low_gpt4o_new.csv
-  • Llama 3.2 → High_Llama3.2.csv, Mid_Llama3.2.csv, Low_Llama3.2.csv (name may vary, but has a column with choices)
-  • Llama 3.1 70B → High_Llama3.1_70B.csv, Mid_Llama3.1_70B.csv, Low_Llama3.1_70B.csv
-  • Qwen 2.5 14B → High_Qwen2.5_14B.csv, Mid_Qwen2.5_14B.csv, Low_Qwen2.5_14B.csv
-  • mBERT → High_mBert.csv, Mid_mBert.csv, Low_mBert.csv
-  • XLM‑R → multiple_choice_prompts_High_xlmr_output.json, ..._Mid_..., ..._Low_...
+NOTEBOOK -> OUTPUT
+Merged_GPT4o_Resp.ipynb -> GPT4o_Merged_Multilingual.csv
+Merged_Llama3.1_70_Resp.ipynb -> LLaMA3.1_70_Merged_Multilingual.csv
+Merged_Llama3.2_Resp.ipynb -> LLaMA3.2_Merged_Multilingual.csv
+Merged_Qwen2.5_14B_Resp.ipynb -> Qwen2.5_Merged_Multilingual.csv
+Merged_mBert_Resp.ipynb -> mBERT_Merged_Multilingual.csv
+Merged_XLM_R_Resp.ipynb -> XLM-R_Merged_Multilingual.csv
+Merged_Shfl_GPT4o_Resp.ipynb -> GPT4o_Shuffled_Merged_Multilingual.csv
+Merged_Shfld_Llama3.1_70B_Resp.ipynb -> LLaMA3.1_Shuffled_Merged_Multilingual.csv
 
-Shuffled runs (order‑effect control; only for GPT‑4o and Llama 3.1 70B):
-  • GPT‑4o → "High - Shfl_Shfl_gpt4o_output.csv", "Mid - Shfl_...", "Low - Shfl_..."
-  • Llama 3.1 70B → corresponding shuffled output CSVs
+WORKING DIRECTORY AND INPUTS
+Use the shared A. Datasets working directory described in
+../docs/REPRODUCIBILITY.md. Inputs are model-generated CSVs, except mBERT and
+XLM-R which read generated JSON. That guide gives the complete filename map.
 
-MERGE LOGIC (applied to every model)
-1) Load the three language files for the same model.
-2) Assert the same number of rows (same items) across EN/IT/FA.
-3) Build a single DataFrame with parallel columns:
-   - Shared metadata per language: Domain_EN/FA/IT, Prompt_EN/FA/IT, A_* … D_*
-   - Model choices per language: e.g., GPT4o_EN, GPT4o_IT, GPT4o_FA
-4) Save one CSV per model in this folder.
+Two base Llama input patterns do not match inference filenames:
+- Llama 3.1 writes *_llama_output_new.csv; merge expects *_llama3.1_70_output.csv.
+- Llama 3.2 writes *_llama_output_3.2.csv; merge expects *_llama3.2_output.csv.
+Adjust the merge input paths or copy outputs under the expected names.
 
-FILES YOU SEE HERE (expected)
-  • Merged_GPT4o_Resp.csv                 – base GPT‑4o across EN/IT/FA
-  • Merged_Llama3.2_Resp.csv              – base Llama 3.2 across EN/IT/FA
-  • Merged_Llama3.1_70_Resp.csv           – base Llama 3.1 70B across EN/IT/FA
-  • Merged_Qwen2.5_14B_Resp.csv           – base Qwen 2.5 14B across EN/IT/FA
-  • Merged_mBert_Resp.csv                 – base mBERT across EN/IT/FA
-  • Merged_XLM_R_Resp.csv                 – base XLM‑R across EN/IT/FA (converted from JSON outputs)
-  • Merged_Shfl_GPT4o_Resp.csv            – shuffled GPT‑4o across EN/IT/FA
-  • Merged_Shfl_Llama3.1_70B_Resp.csv     – shuffled Llama 3.1 70B across EN/IT/FA
+OUTPUT CONVENTIONS
+Outputs contain parallel language columns such as Domain_EN/IT/FA,
+Prompt_EN/IT/FA, and model-specific choice fields. Not all merge notebooks
+retain all option text fields. The XLM-R choice prefix is XLMR.
+Files are written with utf-8-sig encoding; rerunning can overwrite them.
+Returned control-run letters remain presented labels; the merge does not
+map them back to original trait identities for original/control comparisons.
 
-NOTES / CONVENTIONS
-- Column names for choices are model‑specific (e.g., “GPT-4o Choice”, “Llama Choice”, “XLM-R Choice”).
-  During merge, we rename/assign them to consistent columns like GPT4o_EN/IT/FA, Llama_EN/IT/FA, etc.
-- For XLM‑R, inputs are JSON; we read the three “*_xlmr_output.json” files and write a merged CSV.
-- Encoding is UTF‑8 with BOM for Excel compatibility (utf-8-sig).
-- If a file already exists, re‑running merge scripts will overwrite it with the latest results.
-
-WHY MERGE?
-Having EN/IT/FA side‑by‑side allows direct comparison of each model’s decision across translations of
-the same item, which we use for cross‑lingual consistency analyses and order‑effect checks (via shuffled runs).
-
-REPRO STEP (conceptual; see model‑specific scripts for details)
-- Example (GPT‑4o base):
-  Read Low_gpt4o_new.csv / Mid_gpt4o_new.csv / High_gpt4o_new.csv → verify equal length →
-  assemble columns Domain_*, Prompt_*, A_*/B_*/C_*/D_* and choices → write Merged_GPT4o_Resp.csv.
+AUTHORSHIP, LICENSE, AND CITATION
+Original code: Saba Ghanbari Haez (sole author).
+See ../LICENSE, ../NOTICE, and ../CITATION.bib.
+Paper credit is separate: ../docs/PAPER_CITATION.md.
 
 CONTACT
 ghanbari.haez.saba@gmail.com

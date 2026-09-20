@@ -1,0 +1,142 @@
+Cross-Lingual Bias Detection Attribution and Citation License
+Version 1.0
+
+Original repository code: Copyright (c) 2025-2026 Saba Ghanbari Haez.
+Repository: https://github.com/Saba-Gh-H/cross-lingual-bias-detection
+
+This is a custom source-available license, not an OSI-approved license,
+and not the MIT, Apache, GNU GPL, or a Creative Commons license.
+
+1. Scope
+
+"Licensor" means Saba Ghanbari Haez. "You" means a person or organization
+exercising the permissions granted by this license. "Material" means the
+original code, notebooks, documentation, illustrations, and datasets in this
+repository, solely to the extent that the Licensor owns or is authorized to
+license the applicable copyright or database rights, and except where a file
+or component specifies different terms. This does not assert sole authorship
+of datasets or research publications.
+
+Third-party software, model weights, external services, third-party content,
+and the accompanying manuscript are excluded. Their own terms apply. This
+license grants no rights that the Licensor does not hold or control.
+
+"Adaptation" means a modified version of the Material or a work incorporating
+copyrightable portions of it. "Public Output" means a publicly shared paper,
+report, thesis, presentation, dataset, benchmark, software product, service,
+or other result that uses the Material or an Adaptation.
+
+2. Permission
+
+Subject to these conditions, the Licensor grants You worldwide, non-exclusive,
+royalty-free permission under those copyright and database rights to use,
+run, reproduce, study, modify, display, and redistribute the Material and
+Adaptations, for any purpose, including commercial purposes. These permissions
+continue for the duration of the applicable rights unless terminated under
+section 8. No fee, registration, or individual permission request is required
+for uses complying with these terms.
+
+3. Attribution for every use
+
+Retain the copyright, authorship, license, and attribution notices supplied
+with the Material. In documentation or records associated with any project
+using the Material, including a private or internal project, identify:
+
+  - the repository title: cross-lingual-bias-detection;
+  - the original code author: Saba Ghanbari Haez;
+  - the repository URL shown above; and
+  - the version or commit used, if known, or otherwise the date obtained.
+
+For a private use without a separate project document, retaining these details
+in a local README or research record is sufficient. One maintained attribution
+record may cover repeated runs of the same project; a citation per execution
+is not required. Private use does not require public disclosure or notification
+to the Licensor.
+
+4. Citation and acknowledgement in Public Outputs
+
+Each Public Output must clearly acknowledge its use of the Material and
+include the attribution in section 3 in a location appropriate to the medium.
+For papers, theses, reports, and other scholarly outputs, include a software
+bibliographic citation and identify its role in the methods, implementation,
+or acknowledgements. CITATION.cff and CITATION.bib supply a suggested citation;
+equivalent citation styles are permitted.
+
+For software, distributions, datasets, and publicly accessible services,
+attribution may appear in a readily accessible README, accompanying
+documentation, citation or credits page, or about page. It need not appear
+in every screen, individual data row, or individual inference response.
+
+A citation to the accompanying paper alone does not replace attribution to
+the software and its original code author. If You also rely on the paper's
+methodology or findings, acknowledge that paper separately using the actual
+manuscript version consulted and its available bibliographic information.
+No citation to an unavailable or unconsulted manuscript is required. The
+software citation obligation applies whether or not the paper is published.
+
+5. Modifications
+
+For every Adaptation, retain the original attribution and record the name
+of the person or organization making changes, the date, and a meaningful
+description of the changes. Place this notice in the modified file or in
+an accompanying change record that identifies the affected files. For a
+private Adaptation this record may remain private; for a redistributed or
+publicly deployed Adaptation it must accompany the distribution or be
+available in the accompanying documentation.
+
+Clearly distinguish Your changes from the original implementation. You may
+credit Your contributions but must not claim authorship of the original code
+or imply that the Licensor made, approved, or endorses Your changes or use.
+
+6. Redistribution and downstream use
+
+Include this license and the supplied NOTICE with copies or Adaptations
+that You redistribute, including distributions in executable form. Preserve
+existing notices and include the modification record required by section 5.
+Recipients receive permission to the covered Material directly from the
+Licensor under these same terms. You must not remove or override these
+conditions for the covered Material.
+
+You may license Your independently authored additions under separate terms,
+provided those terms do not prevent compliance with this license for the
+Material. This license does not require publication of Your source code or
+licensing of an entire independent project under these terms. Public Outputs
+do not become subject to this license merely because the Material produced
+them; attribution and citation conditions still apply to their use of it.
+
+7. Rights reserved and legal exceptions
+
+No trademark or endorsement rights are granted. No express patent license
+is granted. All rights not granted above are reserved. Nothing in this license
+restricts fair use, fair dealing, public-domain material, or another use that
+applicable law permits without the Licensor's permission. Facts and ideas are
+not made exclusive property by this license.
+
+8. Termination and reinstatement
+
+If You fail to comply with these conditions, the permissions granted to You
+terminate automatically. They are automatically reinstated if You correct
+the violation within 30 days after discovering it, or may be reinstated by
+the Licensor's express written permission. Reinstatement does not eliminate
+liability for an earlier violation. Compliant recipients' permissions are
+not terminated by another person's noncompliance.
+
+9. Disclaimer of warranty and limitation of liability
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE MATERIAL IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+THE LICENSOR DOES NOT WARRANT THE ACCURACY, FAIRNESS, REPRODUCIBILITY, OR
+FITNESS OF RESEARCH RESULTS. TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE
+LICENSOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING
+FROM THE MATERIAL OR ITS USE, WHETHER IN CONTRACT, TORT, OR OTHERWISE.
+
+10. Interpretation
+
+If a provision is unenforceable, it shall be limited to the minimum extent
+necessary and the remaining provisions remain effective. A waiver must be
+expressly given by the Licensor; a waiver for one use is not a general waiver.
+The text supplied with the version You received controls; later documentation
+or citation metadata does not retroactively add conditions to that version.
+
+Contact for alternative permissions: ghanbari.haez.saba@gmail.com

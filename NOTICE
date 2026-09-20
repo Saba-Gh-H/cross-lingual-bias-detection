@@ -1,0 +1,20 @@
+cross-lingual-bias-detection
+https://github.com/Saba-Gh-H/cross-lingual-bias-detection
+
+Original repository code: Copyright (c) 2025-2026 Saba Ghanbari Haez.
+Saba Ghanbari Haez is the sole author of the original repository code.
+
+Licensed under the Cross-Lingual Bias Detection Attribution and Citation
+License 1.0. See LICENSE for the permissions and conditions.
+
+Software citation: see CITATION.cff and CITATION.bib.
+Separate manuscript reference: see docs/PAPER_CITATION.md.
+Paper authorship and research contact listings do not establish code authorship.
+
+Retain this notice in copies and adaptations of the covered material.
+Identify modifications separately, with the modifier, date, and a description.
+Do not imply that the original author made or endorses those modifications.
+
+Model weights, dependencies, third-party materials, and the accompanying paper
+are not relicensed by this notice. Credit here concerns the original repository
+code and does not assert sole authorship of third-party works or the paper.
