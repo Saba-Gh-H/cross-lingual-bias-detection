@@ -61,9 +61,7 @@ python "D. Analysis/analyze_gpt4o.py"
 
 ## 📬 Contact
 1. Saba Ghanbari Haez: sghanbarihaez@fbk.eu  ghanbari.haez.saba@gmail.com
-2. Simone Magnolini: magnolini@fbk.eu
-3. Monica Consolandi: mconsolandi@fbk.eu
-4. Mauro Dragoni: mdragoni@fbk.eu
+2. Mauro Dragoni: mdragoni@fbk.eu
 
    
 Paper link will be added upon publication.
