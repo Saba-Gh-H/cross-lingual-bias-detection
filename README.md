@@ -10,9 +10,10 @@
 [![Models: 6](https://img.shields.io/badge/models-6-7c3aed)](#models)
 [![Workflow: Jupyter](https://img.shields.io/badge/workflow-Jupyter-f59e0b)](#getting-started)
 [![License: custom attribution](https://img.shields.io/badge/license-custom%20attribution-0f766e)](LICENSE)
-[![Paper: unpublished](https://img.shields.io/badge/paper-unpublished-64748b)](#paper-citation)
+[![Paper: preprint available](https://img.shields.io/badge/paper-preprint%20available-2563eb)](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution)
+[![Workshop: LLAIS at ECAI 2025](https://img.shields.io/badge/LLAIS%20%40%20ECAI-2025-7c3aed)](https://llias2025.web.app/accepted-papers)
 
-[**Framework**](#framework) · [**Models**](#models) · [**Run the notebooks**](#getting-started) · [**Cite the code**](#code-citation) · [**Cite the paper**](#paper-citation)
+[**Read the paper**](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution) · [**Framework**](#framework) · [**Models**](#models) · [**Run the notebooks**](#getting-started) · [**Cite the code**](#code-citation) · [**Cite the paper**](#paper-citation)
 
 </div>
 
@@ -27,7 +28,7 @@ The study is grounded in Schwartz’s theory of human values and groups trait ch
 | 60 per language | English · Italian · Persian | 12 | 4 generative + 2 encoders | A · B · C · D |
 
 > [!NOTE]
-> **Research status:** the accompanying paper is unpublished. This repository contains research notebooks and input CSVs; generated response files are not included. See [reproduction notes](docs/REPRODUCIBILITY.md) before interpreting or reproducing results.
+> **Research status:** the paper was peer reviewed, accepted, and presented at **LLAIS @ ECAI 2025**. A [preprint is available on ResearchGate](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution); formal proceedings publication is pending. See the [paper record](docs/PAPER_CITATION.md) for details and [reproduction notes](docs/REPRODUCIBILITY.md) before interpreting or reproducing results. Generated response files are not included in this repository.
 
 <a id="framework"></a>
 
@@ -286,23 +287,32 @@ Replace the bracketed fields. Keep the [LICENSE](LICENSE) and [NOTICE](NOTICE) w
 
 ## 📄 Paper citation
 
-**Status: unpublished manuscript.** The author list below follows the manuscript supplied by the author; the manuscript PDF is not included in this repository.
+**[Read the preprint on ResearchGate](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution)** · **[Preprint DOI: 10.13140/RG.2.2.31043.16161](https://doi.org/10.13140/RG.2.2.31043.16161)**
 
-> Ghanbari Haez, S., Magnolini, S., Consolandi, M., & Dragoni, M. (n.d.). *Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution* [Unpublished manuscript].
+The paper was **peer reviewed, accepted, and presented at the Workshop on LLM-Based Agents for Intelligent Systems (LLAIS), at ECAI 2025**. The workshop lists it among its [accepted papers](https://llias2025.web.app/accepted-papers) and documents its [double-blind review process](https://llias2025.web.app/papers). Formal proceedings publication remains pending. The preprint was posted on ResearchGate on **20 September 2026**; the PDF is linked externally and is not included in this repository.
+
+> Ghanbari Haez, S., Magnolini, S., Consolandi, M., & Dragoni, M. (2026). *Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution* [Preprint]. ResearchGate. [https://doi.org/10.13140/RG.2.2.31043.16161](https://doi.org/10.13140/RG.2.2.31043.16161)
 
 ```bibtex
-@unpublished{ghanbarihaez_cross_lingual_trait_attribution,
-  author = {Ghanbari Haez, Saba and Magnolini, Simone and
-            Consolandi, Monica and Dragoni, Mauro},
-  title  = {Evaluating Representational Fairness in Multilingual {LLMs} via
-            Cloze-Based Trait Attribution},
-  note   = {Unpublished manuscript}
+@misc{ghanbarihaez_cross_lingual_trait_attribution,
+  author       = {Ghanbari Haez, Saba and Magnolini, Simone and
+                  Consolandi, Monica and Dragoni, Mauro},
+  title        = {Evaluating Representational Fairness in Multilingual {LLMs} via
+                  Cloze-Based Trait Attribution},
+  year         = {2026},
+  month        = sep,
+  howpublished = {ResearchGate preprint},
+  doi          = {10.13140/RG.2.2.31043.16161},
+  url          = {https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution},
+  note         = {Peer-reviewed, accepted, and presented at the Workshop on
+                  LLM-Based Agents for Intelligent Systems (LLAIS), at ECAI 2025.
+                  Formal proceedings publication pending}
 }
 ```
 
-Download the separate [paper.bib](docs/paper.bib). See the [paper citation record](docs/PAPER_CITATION.md) for the fields to update when a preprint becomes available, including on ResearchGate. The year is left unspecified until confirmed; no venue, DOI, or public manuscript link is claimed.
+Download the separate [paper.bib](docs/paper.bib), or see the [full paper citation record](docs/PAPER_CITATION.md). **2026 is the preprint posting year; 2025 is the workshop year.** The DOI identifies the ResearchGate preprint. Proceedings-specific bibliographic details can be added when available.
 
-When using both the code and the paper’s methodology or findings, cite **both research outputs**. Posting a preprint should be recorded as a preprint, without implying journal publication or peer review.
+When using both the code and the paper’s methodology or findings, cite **both research outputs**. The [software citation](#code-citation) credits Saba Ghanbari Haez alone; the paper citation credits all four paper authors.
 
 ## ⚖️ License and credit
 

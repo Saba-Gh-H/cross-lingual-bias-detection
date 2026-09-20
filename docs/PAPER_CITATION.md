@@ -1,43 +1,59 @@
 # Separate paper citation
 
-**Status: unpublished manuscript.** Author names and order were confirmed from the manuscript supplied by Saba Ghanbari Haez. The PDF is not included in the repository.
+**Status: peer-reviewed workshop paper; ResearchGate preprint available.** The paper was accepted and presented at the Workshop on LLM-Based Agents for Intelligent Systems (LLAIS), at ECAI 2025. Formal proceedings publication remains pending as of 20 September 2026.
+
+**[Read the paper on ResearchGate](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution)** · **[Preprint DOI](https://doi.org/10.13140/RG.2.2.31043.16161)**
+
+Author names and order match the supplied manuscript and the [workshop’s accepted-paper list](https://llias2025.web.app/accepted-papers), which lists the paper for a poster presentation. The workshop’s [call for papers](https://llias2025.web.app/papers) specifies double-blind review. Saba Ghanbari Haez confirms that the work was presented. The PDF is linked externally and is not included in this repository.
 
 | Field | Information |
 | --- | --- |
 | Title | Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution |
 | Authors, in order | Saba Ghanbari Haez; Simone Magnolini; Monica Consolandi; Mauro Dragoni |
-| Year | Not yet confirmed; omitted rather than inferred from a filename |
-| Status | Unpublished manuscript |
-| Public manuscript URL / DOI | Not yet supplied |
+| Workshop | Workshop on LLM-Based Agents for Intelligent Systems (LLAIS), at ECAI 2025 |
+| Workshop date | 25 October 2025 |
+| Review and presentation | Peer reviewed, accepted, and presented |
+| Proceedings status | Formal publication pending |
+| Preprint posting date | 20 September 2026, as recorded on ResearchGate |
+| Citation year | 2026 for the ResearchGate preprint; workshop year is 2025 |
+| Public manuscript | [ResearchGate preprint](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution) |
+| Preprint DOI | [10.13140/RG.2.2.31043.16161](https://doi.org/10.13140/RG.2.2.31043.16161) |
 
 ## Formatted reference
 
-> Ghanbari Haez, S., Magnolini, S., Consolandi, M., & Dragoni, M. (n.d.). *Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution* [Unpublished manuscript].
+> Ghanbari Haez, S., Magnolini, S., Consolandi, M., & Dragoni, M. (2026). *Evaluating Representational Fairness in Multilingual LLMs via Cloze-Based Trait Attribution* [Preprint]. ResearchGate. [https://doi.org/10.13140/RG.2.2.31043.16161](https://doi.org/10.13140/RG.2.2.31043.16161)
+
+The citation year identifies the publicly posted preprint. Its workshop review, acceptance, and presentation took place in 2025 and are recorded in the BibTeX note below.
 
 ## BibTeX
 
 Download [paper.bib](paper.bib), or copy:
 
 ```bibtex
-@unpublished{ghanbarihaez_cross_lingual_trait_attribution,
-  author = {Ghanbari Haez, Saba and Magnolini, Simone and
-            Consolandi, Monica and Dragoni, Mauro},
-  title  = {Evaluating Representational Fairness in Multilingual {LLMs} via
-            Cloze-Based Trait Attribution},
-  note   = {Unpublished manuscript}
+@misc{ghanbarihaez_cross_lingual_trait_attribution,
+  author       = {Ghanbari Haez, Saba and Magnolini, Simone and
+                  Consolandi, Monica and Dragoni, Mauro},
+  title        = {Evaluating Representational Fairness in Multilingual {LLMs} via
+                  Cloze-Based Trait Attribution},
+  year         = {2026},
+  month        = sep,
+  howpublished = {ResearchGate preprint},
+  doi          = {10.13140/RG.2.2.31043.16161},
+  url          = {https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution},
+  note         = {Peer-reviewed, accepted, and presented at the Workshop on
+                  LLM-Based Agents for Intelligent Systems (LLAIS), at ECAI 2025.
+                  Formal proceedings publication pending}
 }
 ```
 
-The year, venue, URL, and DOI are deliberately omitted until confirmed. Do not describe the manuscript as a published conference or journal paper based on its filename or formatting.
+The DOI and posting date identify the [ResearchGate preprint record](https://www.researchgate.net/publication/414513383_Evaluating_Representational_Fairness_in_Multilingual_LLMs_via_Cloze-Based_Trait_Attribution). The reference includes the workshop history without inventing proceedings pages, a volume, or a publisher-issued version of record.
 
-## When a preprint becomes available
+## When formal proceedings are published
 
-1. Confirm the manuscript year and add it to both paper references and `paper.bib`.
-2. Add the direct public manuscript URL, including a ResearchGate URL if that is where it is posted.
-3. Record its version or posting date so readers can identify the text cited.
-4. Add a DOI only if one has actually been assigned.
-5. Keep the status as **preprint** or **unpublished manuscript** until publication details are confirmed.
-6. Update this record and the README’s paper citation. Keep [CITATION.cff](../CITATION.cff) and [CITATION.bib](../CITATION.bib) dedicated to the software.
+1. Add the confirmed proceedings title, publication year, publisher, volume, and pages where applicable.
+2. Add the version-of-record URL and DOI if assigned, distinguishing them from the preprint DOI.
+3. Update the formatted reference and `paper.bib` to cite the published version, retaining the preprint link for access.
+4. Update the README’s paper citation and publication status. Keep [CITATION.cff](../CITATION.cff) and [CITATION.bib](../CITATION.bib) dedicated to the software.
 
 ## Software credit is separate
 
